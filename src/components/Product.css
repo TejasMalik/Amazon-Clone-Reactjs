@@ -1,0 +1,25 @@
+.product {
+    transition: transform 300ms ease-in;
+}
+
+.product:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 2);
+}
+
+.product__image > img {
+    margin-top: 10px;
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.product__button > button{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}

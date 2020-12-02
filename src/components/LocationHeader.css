@@ -1,0 +1,57 @@
+.locationHeader {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #232f3e;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+}
+
+.locationHeader__locationIcon {
+    margin-left: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.locationHeader__nav {
+    display: flex;
+    align-items: center;
+}
+
+.locationHeader__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;;
+    color: #ffffff;
+    margin-right: 57px;
+    cursor: pointer;
+}
+
+.locationHeader__optionOne {
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 400;
+    color: #cccccc;
+}
+
+.locationHeader__optionTwo {
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+
+.locationHeader__option__one {
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.locationHeader__option__one__two {
+    margin-right: 100px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
